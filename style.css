@@ -1,0 +1,49 @@
+body{ 
+    background-image: url('images/5thAve.jpg');
+    margin: 10px;
+    box-sizing: border-box;
+    transition: 3s ease-in-out;
+}
+    #titles{
+        transition: 3s ease-in-out;
+    }
+    .title{
+        transition: 3s ease-in-out;
+    }
+.title{
+    
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    height: 15vh;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'Lexend Peta', sans-serif;
+}
+#titles{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    
+    height: 10vh;
+    color: white;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'Lexend Peta', sans-serif;
+}
+main{ 
+    height: 65vh;
+    
+    box-sizing: border-box;
+}
+.contactInfo{
+    color: white;
+    
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'Lexend Peta', sans-serif;
+}
