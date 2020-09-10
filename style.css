@@ -3,15 +3,9 @@ body{
     margin: 10px;
     box-sizing: border-box;
     transition: 3s ease-in-out;
+    background-size: cover;
 }
-    #titles{
-        transition: 3s ease-in-out;
-    }
-    .title{
-        transition: 3s ease-in-out;
-    }
 .title{
-    
     display: flex;
     justify-content: center;
     color: white;
@@ -20,30 +14,35 @@ body{
     box-sizing: border-box;
     align-items: center;
     font-family: 'Lexend Peta', sans-serif;
+    text-shadow: 4px 4px black;
 }
 #titles{
     display: flex;
     justify-content: space-evenly;
     font-size: 30px;
-    
     height: 10vh;
     color: white;
     box-sizing: border-box;
     align-items: center;
     font-family: 'Lexend Peta', sans-serif;
+    text-shadow: 2px 2px black;
 }
 main{ 
     height: 65vh;
-    
     box-sizing: border-box;
 }
 .contactInfo{
     color: white;
-    
     height: 10vh;
     display: flex;
     justify-content: space-evenly;
     box-sizing: border-box;
     align-items: center;
     font-family: 'Lexend Peta', sans-serif;
+    text-shadow: 2px 2px black;
 }
+p a:hover{
+    color: darkgray;
+    transition: .2s ease-in-out;
+}
+@media(min-width: 480px)
